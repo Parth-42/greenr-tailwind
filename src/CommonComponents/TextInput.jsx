@@ -1,10 +1,14 @@
 const TextInput = (props) => {
+  const { border = true } = props;
+
   return (
     <div>
       <input
         {...props}
         type='text'
-        className='font-bold h-10 w-20 text-sm text-gray-500 text-center px-2 py-0.5 border-solid rounded-lg border border-gray-300 '
+        className={`outline-none font-bold h-10 w-full text-sm text-gray-500  px-2 py-0.5 ${
+          border ? 'border-solid rounded-lg border border-gray-300' : ''
+        }`}
       />
     </div>
   );

@@ -20,7 +20,7 @@ const Panel = () => {
   };
 
   return (
-    <div className='border-r-2 border-gray-100 w-72 pl-10 pt-4 pr-16 h-screen'>
+    <div className='border-r-2 border-gray-100 w-72 pl-10 pt-4 pr-10 h-screen'>
       <Text className='font-bold pb-8 text-gray-600'>Filter</Text>
 
       <div className='pb-8'>
@@ -38,7 +38,7 @@ const Panel = () => {
 
       <div className='pb-8'>
         <Text className='font-bold pb-2 text-gray-600'>Price Range</Text>
-        <div className='flex pb-4 w-full justify-between'>
+        <div className='flex pb-4 w-full justify-between gap-4'>
           <TextInput disabled value='Min' className='w-full' />
           <TextInput value={'$200'} />
         </div>
