@@ -5,7 +5,7 @@ import Icon from '../CommonComponents/Icon';
 
 const Navbar = () => {
   return (
-    <div className='mb-2 flex w-full m-x-0 border-b-2 border-grey-200 py-5 px-10'>
+    <div className='sticky bg-white z-20 top-0 h-15 mb-2 flex w-full m-x-0 border-b-2 border-grey-200 py-5 px-10'>
       <div className='w-72'>
         <Text>GreenR</Text>
       </div>
